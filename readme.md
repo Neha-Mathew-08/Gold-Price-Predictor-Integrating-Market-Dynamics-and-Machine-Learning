@@ -22,7 +22,7 @@ Data was collected using the `yfinance` Python library, retrieving daily prices 
 ##  Economic Justification for Features
 
 - **USD/INR**: Gold is imported to India in dollars, so a weak rupee makes gold costlier, reducing demand, while a strong rupee lowers prices, boosting affordability and purchases. That shows a positive correlation between the two factors.
-- **10Y Yield**: 3. The traditional inverse link between bond yields and gold has weakened during this period of extraordinary geopolitical and economic uncertainty. Markets are now highly reactive to:
+- **10Y Yield**: The traditional inverse link between bond yields and gold has weakened during this period of extraordinary geopolitical and economic uncertainty. Markets are now highly reactive to:
 * Central bank policy decisions.
 * Shifting geopolitical alliances.
 * Stock market performance.
@@ -52,7 +52,7 @@ Data was collected using the `yfinance` Python library, retrieving daily prices 
 
 ---
 
-## ⚙ Modeling Approach
+## Modeling Approach
 
 ### 1. **Problem Framing**
 - Reformulated regression into **binary classification**: Will gold price go **up (1)** or **down (0)** next day?
